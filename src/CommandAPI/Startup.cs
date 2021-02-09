@@ -18,6 +18,8 @@ using CommandAPI.Profiles;
 
 using Newtonsoft.Json.Serialization;
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+
 namespace CommandAPI
 {
     public class Startup
@@ -44,6 +46,15 @@ namespace CommandAPI
             // Agregando servicio para base de datos
             services.AddDbContext<CommandContext>(opt => opt.UseNpgsql
                 (builder.ConnectionString));
+
+            //Agregado para autntizacion con azure
+
+            //ConditionParameters autentizacion
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+            {
+                opt.Audience = Configuration["ResourceId"];
+                opt.Authority = $"{Configuration["Instance"]}{Configuration["TenantId"]}";
+            });    
             // Seccion 1 Agregado codigo de abajo
             //Agregado PATCH de json
             services.AddControllers().AddNewtonsoftJson(s =>
@@ -68,6 +79,9 @@ namespace CommandAPI
             }
 
             app.UseRouting();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

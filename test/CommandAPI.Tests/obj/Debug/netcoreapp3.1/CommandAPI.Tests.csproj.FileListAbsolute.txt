@@ -130,3 +130,10 @@
 /home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/System.Text.Json.dll
 /home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/Castle.Core.dll
 /home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/Moq.dll
+/home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/acano/VisualStudioCore/webService/test/CommandAPI.Tests/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll

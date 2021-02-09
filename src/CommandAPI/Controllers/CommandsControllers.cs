@@ -10,6 +10,8 @@ using CommandAPI.Data;
 using AutoMapper;
 using CommandAPI.Dtos;
 
+using Microsoft.AspNetCore.Authorization;
+
 namespace CommandAPI.Controllers
 {
     [Route("api/[controller]")]
@@ -36,6 +38,7 @@ namespace CommandAPI.Controllers
         }
 
         //Add the following code for our second ActionResult
+        [Authorize]
         [HttpGet("{id}", Name="GetCommandById")]
         public ActionResult<CommandReadDto> GetCommandById(int id)
         {

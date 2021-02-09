@@ -49,3 +49,10 @@
 /home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+/home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/acano/VisualStudioCore/webService/src/CommandAPI/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
